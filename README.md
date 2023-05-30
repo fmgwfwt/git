@@ -24,3 +24,12 @@ cd /home/alice/project <br />
 git pull /home/bob/myrepe master <br />
 
 
+-------------------------<br />
+to push you need to create an ssh key with the command <br />
+ssh-keygen -t rsa -b 4096 -C "emaladdress" <br />
+there are two keys key and key.pub you can share key.pub(public) <br />
+then go to your account in settings add ssh and gpg keys add you public key there <br />
+then comeback to cli run these commands <br />
+eval "$(ssh-agent -s)" <br />
+ssh-add -K ~/.ssh/key(private) <br />
+ 
