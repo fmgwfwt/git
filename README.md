@@ -32,4 +32,19 @@ then go to your account in settings add ssh and gpg keys add you public key ther
 then comeback to cli run these commands <br />
 eval "$(ssh-agent -s)" <br />
 ssh-add -K ~/.ssh/key(private) <br />
+<br />
+suppose you created a new folder and want to push that folder to your github account first you need to create a new repository in there and with the command <br />
+git remote add "https or ssh " address <br /> 
+git remote -v // shows the any remote repositories that connected <br />
+now you can add commit and push <br />
+git push -u origin master (-u means --set-upstream)<br /> 
+<br />
+git checkout -b new_branch // new_branch <br />
+git pull // to see the updates on the local <br />
+you staged some file and then git -reset [filename] will unstage <br />
+if you commit something git reset HEAD~1 will come back <br />
+git reset (any commit number) you will be there <br />
+git reset --hard (any commit number) you will be there and other changes will be deleted <br />
+
+
  
