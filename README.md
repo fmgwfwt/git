@@ -24,7 +24,8 @@ cd /home/alice/project <br />
 git pull /home/bob/myrepe master <br />
 
 
--------------------------<br />
+<br />
+<br />
 to push you need to create an ssh key with the command <br />
 ssh-keygen -t rsa -b 4096 -C "emaladdress" <br />
 there are two keys key and key.pub you can share key.pub(public) <br />
@@ -45,6 +46,9 @@ you staged some file and then git -reset [filename] will unstage <br />
 if you commit something git reset HEAD~1 will come back <br />
 git reset (any commit number) you will be there <br />
 git reset --hard (any commit number) you will be there and other changes will be deleted <br />
+
+imagine you cloned a repository from someone's account to your local
+you cannot push you can pull request but if you work you clone it to your github account then you can push clone to your local change and pull request <br /> 
 
 
  
