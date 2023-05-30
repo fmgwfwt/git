@@ -54,5 +54,20 @@ git push origin master = push changes to github master <br />
 git push origin new_branch = push changes to github new_branch <br />
 git config --list <br />
 
+git config --global core.autocrlf true in windows <br />
+git config --global core.autocrlf input in windows <br />
 
- 
+staging area = index <br />
+when you commit the staging area is not emptied <br />
+
+sometimes we don't want to add or commit some files so we need to create a file .gitignore we can put *logs /logs main.log or similar names to ignore <br />
+git add .gitignore <br />
+
+imagine a case you commit a file but then you noticied you don't want it and you put it in to .gitignore when you do that you need to add commit .gitignore <br /> 
+but when you modify your file which you don't want to commit because it's in still staging area you can remove it from your staging area = index <br /> 
+git rm --cached file <br />
+git rm --cached -r folder <br /> 
+
+git status -s  the output of this command left column shows the staging area right column shows the working directory <br />
+git diff --staged <br />
+git diff (unstaged) <br /> 
