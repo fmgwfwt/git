@@ -50,5 +50,9 @@ git reset --hard (any commit number) you will be there and other changes will be
 imagine you cloned a repository from someone's account to your local
 you cannot push you can pull request but if you work you clone it to your github account then you can push clone to your local change and pull request <br /> 
 
+git push origin master = push changes to github master <br />
+git push origin new_branch = push changes to github new_branch <br />
+git config --list <br />
+
 
  
